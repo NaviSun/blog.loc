@@ -1,0 +1,88 @@
+body
+{
+	background: #dcdfe5;
+	font-size: 20px;
+}
+input[type="text"]
+{
+	width: 500px;
+}
+
+textarea
+{
+	width: 500px;
+	height: 300px;
+}
+a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #637084;
+}
+header a
+{
+	font-size: 14px;
+}
+a:visited
+{
+	color:#637084;
+}
+a:hover
+{
+	color:#272f3a;
+	text-decoration: underline;
+}
+ul
+{
+	list-style: none;
+}
+.wrapper
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+header
+{
+	border-bottom: 1px solid black;
+	overflow: hidden;
+}
+
+.logo
+{
+	width: 200px;
+	float: left;
+	color: #f4429e;
+}
+.logo p
+{
+	font-size: 25px;
+}
+.block_user
+{
+	width: 400px;
+	height: 48px;
+	float: right;
+}
+.container
+{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.sidebar
+{
+	width: 200px;
+	float: left;
+}
+.content
+{
+	width: 700px;
+	border-right: 1px solid black;
+	float: left;
+}
+footer
+{
+	clear: both;
+	border-top: 1px solid black;
+	margin-top: 40px;
+	padding-top: 10px;
+}

@@ -1,0 +1,1 @@
+	<ul>		<? foreach ($articles as $article): ?>			<li>				<a href="edit.php?id=<?=$article['id_article']?>">					<?=$article['title']?>				</a>				<a href="editor.php?delete=<?=$article['id_article']?>">					<small>Удалить</small>				</a>			</li>		<? endforeach ?>	</ul>
